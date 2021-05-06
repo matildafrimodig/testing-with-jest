@@ -1,0 +1,22 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "Project for a course at Malmö Universitet Learning about git and testing with jest.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matildafrimodig/testing-with-jest.git"
+  },
+  "author": "Matilda Frimodig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matildafrimodig/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/matildafrimodig/testing-with-jest#readme"
+}
