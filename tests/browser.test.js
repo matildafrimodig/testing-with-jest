@@ -23,6 +23,16 @@ test('The stack should be empty in the beginning', async () => {
 	expect(stack).toEqual("n/a");
 });
 
+test('peek on stack with one element should return the first element', async () => {
+	let push = await driver.findElement(By.id('push'));
+  await push.click();
+  let alert = await driver.switchTo().alert();
+  await alert.sendKeys("x");
+  await alert.accept();
+  let stack = await driver.findElement(By.id('top_of_stack')).getText();
+	expect(stack).toEqual("v");
+});
+
 describe('Clicking "Pusha till stacken"', () => {
 	it('should open a prompt box', async () => {
 		let push = await driver.findElement(By.id('push'));
