@@ -20,7 +20,7 @@ test('peek on stack with two or more elements returns the top element', () => {
 
 test('peek on stack with one element do not return undefined', () => {
      stack.push('x');
-     expect(stack.peek()).toBeUndefined();
+     expect(stack.peek()).toBe('x');
 
 
 });

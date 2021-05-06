@@ -30,7 +30,7 @@ test('peek on stack with one element should return the first element', async () 
   await alert.sendKeys("x");
   await alert.accept();
   let stack = await driver.findElement(By.id('top_of_stack')).getText();
-	expect(stack).toEqual("v");
+	expect(stack).toEqual("x");
 });
 
 describe('Clicking "Pusha till stacken"', () => {
