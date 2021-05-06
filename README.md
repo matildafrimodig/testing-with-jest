@@ -1,3 +1,4 @@
 # testing-with-jest
 
-project for a course at Malmö Universitet
+Project for a course at Malmö Universitet
+Learning about git and testing with jest. 
