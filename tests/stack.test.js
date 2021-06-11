@@ -22,5 +22,13 @@ test('peek on stack with one element do not return undefined', () => {
      stack.push('x');
      expect(stack.peek()).toBe('x');
 
-
 });
+
+test('pop on stack should remove the top element',() => {
+    stack.push('x');
+    stack.push('y');
+    stack.pop();
+    expect(stack.peek()).toBeDefined();
+    expect(stack.peek()).toBe('y');
+    
+})
