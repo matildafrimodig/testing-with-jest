@@ -29,6 +29,6 @@ test('pop on stack should remove the top element',() => {
     stack.push('y');
     stack.pop();
     expect(stack.peek()).toBeDefined();
-    expect(stack.peek()).toBe('y');
-    
+    expect(stack.peek()).toBe('x');
+
 })
